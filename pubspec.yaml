@@ -1,0 +1,42 @@
+name: aaliya_portfolio_app
+description: "Aaliya Younas - Professional Flutter Portfolio App"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Firebase
+  firebase_core: ^4.2.1
+  firebase_auth: ^6.1.2
+  cloud_firestore: ^6.0.2
+  firebase_storage: ^13.0.2
+
+  # Images
+  image_picker: ^1.2.0
+  cached_network_image: ^3.4.1
+
+  # Open links / Email / GitHub / LinkedIn
+  url_launcher: ^6.3.2
+
+  # Date formatting
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
